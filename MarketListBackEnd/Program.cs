@@ -21,7 +21,21 @@ builder.Services.AddScoped<IGrupoRepositorio, GrupoRepositorio>();
 builder.Services.AddScoped<IItensListaDeComprasRepositorio, ItensListaDeComprasRepositorio>();
 builder.Services.AddScoped<IListaDeComprasRepositorio, ListaDeComprasRepositorio>();
 
+// CORS
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
+
+app.UseCors();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
