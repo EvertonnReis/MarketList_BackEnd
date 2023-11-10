@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddTransient<IDbConnection>(sp =>
 {
-    var connectionString = "Server=localhost;Port=3306;Database=marketlist;User=root;Password=;"; // Substitua pela sua string de conexão
+    var connectionString = "Server=localhost;Port=3306;Database=marketlist;User=root;Password=;";
     return new MySqlConnection(connectionString);
 });
 

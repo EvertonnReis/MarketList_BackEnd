@@ -2044,11 +2044,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\evert\\source\\repos\\MarketListBackEnd\\MarketListBackEnd\\MarketListBackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\evert\\Downloads\\arrumarcommits-marketlist\\back\\MarketList_BackEnd\\MarketListBackEnd\\MarketListBackEnd.csproj",
       "projectName": "MarketListBackEnd",
-      "projectPath": "C:\\Users\\evert\\source\\repos\\MarketListBackEnd\\MarketListBackEnd\\MarketListBackEnd.csproj",
+      "projectPath": "C:\\Users\\evert\\Downloads\\arrumarcommits-marketlist\\back\\MarketList_BackEnd\\MarketListBackEnd\\MarketListBackEnd.csproj",
       "packagesPath": "C:\\Users\\evert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\evert\\source\\repos\\MarketListBackEnd\\MarketListBackEnd\\obj\\",
+      "outputPath": "C:\\Users\\evert\\Downloads\\arrumarcommits-marketlist\\back\\MarketList_BackEnd\\MarketListBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

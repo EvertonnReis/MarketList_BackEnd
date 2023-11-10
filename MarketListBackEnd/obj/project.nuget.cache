@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NQc40reOtT1ocZbsJyJKlD07t71mxGHp1XGpfV5lx/tYWV+e3lNtSntlVd1QPtzLx0JYsVE5iNkDiqK+uaBy6w==",
+  "dgSpecHash": "740hm7+6XU910E35/+vS19TyNFiFW+C7NoAgVwyDm55uERrLZKmpcKDSd9nTa0qmWMg+WiPscFbEs7owb3hvRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\evert\\source\\repos\\MarketListBackEnd\\MarketListBackEnd\\MarketListBackEnd.csproj",
+  "projectFilePath": "C:\\Users\\evert\\Downloads\\arrumarcommits-marketlist\\back\\MarketList_BackEnd\\MarketListBackEnd\\MarketListBackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evert\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\evert\\.nuget\\packages\\dapper\\2.1.15\\dapper.2.1.15.nupkg.sha512",
