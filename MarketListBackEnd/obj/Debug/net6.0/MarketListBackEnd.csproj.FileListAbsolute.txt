@@ -242,3 +242,10 @@ C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\Marke
 C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\obj\Debug\net6.0\MarketListBackEnd.pdb
 C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\obj\Debug\net6.0\MarketListBackEnd.genruntimeconfig.cache
 C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\obj\Debug\net6.0\ref\MarketListBackEnd.dll
+C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\evert\Downloads\arrumarcommits-marketlist\back\MarketList_BackEnd\MarketListBackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

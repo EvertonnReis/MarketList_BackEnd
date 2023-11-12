@@ -28,6 +28,22 @@ namespace MarketListBackEnd.Repositories
             return await _connection.QueryFirstOrDefaultAsync<Usuario>("SELECT * FROM Usuario WHERE Id = @Id", new { Id = id });
         }
 
+        public static Usuario Get(string username, string password)
+        {
+            //var users = new List<Usuario>();
+            //users.Add(new Usuario { Id = 1, Nome_usuario = "batman", Senha = "batman" });
+            //users.Add(new Usuario { Id = 2, Nome_usuario = "robin", Senha = "robin" });
+            //return users.Where(x => x.Nome_usuario.ToLower() == username.ToLower() && x.Senha == password).FirstOrDefault();
+            using (var connection = new MySqlConnection("Server=localhost;Port=3306;Database=marketlist;User=root;Password=;"))
+            {
+                connection.Open();
+
+                return connection.QueryFirstOrDefault<Usuario>(
+                    "SELECT * FROM Usuario WHERE Nome_usuario = @Username AND Senha = @Password",
+                    new { Username = username, Password = password }
+                );
+            }
+        }
         public async Task<int> InsertAsync(Usuario usuario)
         {
             return await _connection.ExecuteAsync("INSERT INTO Usuario (Nome, Email, Senha) VALUES (@Nome, @Email, @Senha)", usuario);
